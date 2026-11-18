@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NCC Department</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Internal CSS -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f1;
+            color: #18231f;
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 650px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 75px 5%;
+            gap: 50px;
+        }
+
+        .hero-content {
+            flex: 1;
+        }
+
+        .welcome {
+            color: #245d48;
+            font-size: 14px;
+            font-weight: bold;
+            letter-spacing: 3px;
+            margin-bottom: 30px;
+        }
+
+        .hero h1 {
+            font-size: clamp(45px, 6vw, 82px);
+            line-height: 1.15;
+            margin-bottom: 25px;
+        }
+
+        .hero h1 span {
+            color: #245d48;
+            font-family: Georgia, serif;
+            font-style: italic;
+        }
+
+        .hero p {
+            font-size: 19px;
+            line-height: 1.8;
+            color: #64716c;
+            max-width: 550px;
+        }
+
+        .hero-image {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .hero-image img {
+            width: 100%;
+            height: 480px;
+            object-fit: cover;
+            border-radius: 0 100px 5px 5px;
+        }
+
+        /* Hero Buttons */
+        .hero-buttons {
+            margin-top: 35px;
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="logo">
+            <div class="logo-icon">N</div>
+
+            <div>
+                <h2>NCC</h2>
+                <small>DEPARTMENT</small>
+            </div>
+        </div>
+
+        <nav>
+            <a href="#home" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="#programs">Academic Courses</a>
+            <a href="#news">Our Staff</a>
+
+            <a href="#contact">Contact Us</a>
+            <a href="#news">Our Team</a>
+        </nav>
+
+        <a href="#contact" class="contact-button">
+            Get in touch ↗
+        </a>
+    </header>
+
+
+
+
+
+
+
+
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+
+            <div class="welcome">
+                ● WELCOME TO NCC
+            </div>
+
+            <h1>
+                Ideas that shape<br>
+                our <span>future.</span>
+            </h1>
+
+            <p>
+                A community of curious minds, committed to learning,
+                discovery, and making a difference.
+                Find your place and grow with us.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#about" class="main-button">
+                    Discover our department →
+                </a>
+
+                <a href="#programs" class="second-button">
+                    Explore programs ↗
+                </a>
+
+            </div>
+
+            <div class="people">
+                <div class="circle">J</div>
+                <div class="circle">A</div>
+                <div class="circle">M</div>
+
+                <p>
+                    <strong>People first.</strong> Progress together.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT SECTION -->
+    <section class="about section" id="about">
+
+        <div class="section-label">ABOUT OUR DEPARTMENT</div>
+
+        <h2>Learning today, leading tomorrow.</h2>
+
+        <p>
+            The NCC Department is dedicated to academic excellence,
+            creativity, innovation and practical learning.
+            We provide an environment where students can develop
+            their knowledge and achieve their goals.
+        </p>
+
+    </section>
+
+
+    <!-- PROGRAMS SECTION -->
+    <section class="programs section" id="programs">
+
+        <div class="section-label">WHAT WE OFFER</div>
+
+        <h2>Explore our programs</h2>
+
+        <div class="program-container">
+
+            <div class="program-card">
+                <h3>Computer Science</h3>
+                <p>
+                    Develop programming, problem-solving
+                    and software development skills.
+                </p>
+                <a href="#contact">Learn more →</a>
+            </div>
+
+            <div class="program-card">
+                <h3>Networking</h3>
+                <p>
+                    Understand computer networks,
+                    connectivity and communication systems.
+                </p>
+                <a href="#contact">Learn more →</a>
+            </div>
+
+            <div class="program-card">
+                <h3>Information Technology</h3>
+                <p>
+                    Explore modern technology and
+                    digital information systems.
+                </p>
+                <a href="#contact">Learn more →</a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- NEWS AND EVENTS -->
+    <section class="news section" id="news">
+
+        <div class="section-label">LATEST UPDATES</div>
+
+        <h2>News & Events</h2>
+
+        <div class="news-container">
+
+            <div class="news-card">
+                <h3>Student Orientation</h3>
+                <p>Welcome to a new academic session.</p>
+            </div>
+
+            <div class="news-card">
+                <h3>Department Seminar</h3>
+                <p>Join us for learning and knowledge sharing.</p>
+            </div>
+
+            <div class="news-card">
+                <h3>Technology Workshop</h3>
+                <p>Discover new ideas and practical skills.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT SECTION -->
+    <section class="contact-section section" id="contact">
+
+        <div class="section-label">GET IN TOUCH</div>
+
+        <h2>We would love to hear from you.</h2>
+
+        <p>Email: nccdepartment@example.com</p>
+        <p>Phone: +234 800 000 0000</p>
+        <p>Location: Nigeria</p>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <h3>NCC DEPARTMENT</h3>
+
+        <p>
+            Building knowledge, inspiring innovation
+            and shaping the future.
+        </p>
+
+        <p class="copyright">
+            © 2026 NCC Department. All Rights Reserved.
+        </p>
+    </footer>
+
+</body>
+
+</html>
