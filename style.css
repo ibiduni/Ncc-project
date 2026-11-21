@@ -2471,7 +2471,7 @@ nav a.active {
     background:
         linear-gradient(rgba(12, 47, 34, 0.84),
             rgba(12, 47, 34, 0.82)),
-        url("images/contact-hero.jpg");
+        url("images/tech.png");
 
     background-size: cover;
     background-position: center;
